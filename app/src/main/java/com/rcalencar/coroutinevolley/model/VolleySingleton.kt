@@ -6,8 +6,6 @@ import com.android.volley.RequestQueue
 import com.android.volley.toolbox.BasicNetwork
 import com.android.volley.toolbox.DiskBasedCache
 import com.android.volley.toolbox.HurlStack
-import kotlin.coroutines.resume
-import kotlin.coroutines.suspendCoroutine
 
 class VolleySingleton constructor(context: Context) {
     companion object {
